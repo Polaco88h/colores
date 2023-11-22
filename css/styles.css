@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos específicos */
+  #inicio {
+    font-size: 24px;
+  }
+  
+  #contacto form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 10px;
+  }
+  
+  #contacto form label,
+  #contacto form input,
+  #contacto form textarea,
+  #contacto form input[type="submit"] {
+    margin-bottom: 10px;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+    }
+  }
